@@ -88,9 +88,6 @@ func get_real_time():
 	return get_time() - song_start_time;
 	
 func get_closest_number(array: Array, target: float, lane: int) -> int:
-	'''
-	Input with an array, and a target, a lane, and you will receive an index to the closest number to the target
-	'''
 	var closest_index = -1
 	var smallest_difference = INF
 	
@@ -100,6 +97,8 @@ func get_closest_number(array: Array, target: float, lane: int) -> int:
 			continue
 		var element = array[index].time
 		if abs(target - element) < smallest_difference:
+			if array[index].is_hold == true and element - get_real_time() > 0.2:
+				continue
 			closest_index = index
 			smallest_difference = abs(target - element)
 	
