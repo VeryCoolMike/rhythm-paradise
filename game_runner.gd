@@ -361,6 +361,8 @@ func handle_input():
 			var string_data = JSON.stringify(save_data, "\t")
 			editing_file.store_string(string_data)
 			editing_file.close()
+		else:
+			get_tree().change_scene_to_file("res://select_menu.tscn")
 
 	#print(active_holds)
 
