@@ -1,0 +1,24 @@
+{
+	"song_end_time": 101.03,
+	"song_name": "Introduction to the snow",
+	"notes": [
+		{
+			"time": 2,
+			"lane": 1,
+			"is_hold": false,
+			"hold_length": 0
+		},
+		{
+			"time": 3,
+			"lane": 2,
+			"is_hold": true,
+			"hold_length": 1
+		},
+		{
+			"time": 4,
+			"lane": 4,
+			"is_hold": true,
+			"hold_length": 1
+		}
+	]
+}
