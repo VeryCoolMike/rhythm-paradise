@@ -1,39 +1,28 @@
 [gd_scene load_steps=6 format=3 uid="uid://bxaesx3w5sium"]
 
 [ext_resource type="Texture2D" uid="uid://u6yu6xvnld30" path="res://icon.svg" id="1_23gxq"]
+[ext_resource type="Script" uid="uid://1c3pcp1ug610" path="res://select_menu.gd" id="1_evers"]
 [ext_resource type="Script" uid="uid://c5wn64mg1kpt5" path="res://levels/level_1/level_1_button.gd" id="2_6smk5"]
 [ext_resource type="Script" uid="uid://soilt61bh0cb" path="res://levels/level_2/level_2_button.gd" id="3_prf01"]
 [ext_resource type="Script" uid="uid://wev7c46spbuv" path="res://levels/secret_level/secret_level_button.gd" id="4_spsnn"]
 
-[sub_resource type="LabelSettings" id="LabelSettings_6smk5"]
-font_size = 40
-
 [node name="Node2D" type="Node2D"]
-
-[node name="Label" type="Label" parent="."]
-offset_left = 236.0
-offset_top = 36.0
-offset_right = 879.0
-offset_bottom = 306.0
-text = "now theres two of them"
-label_settings = SubResource("LabelSettings_6smk5")
-horizontal_alignment = 1
-vertical_alignment = 1
+script = ExtResource("1_evers")
 
 [node name="Button" type="Button" parent="."]
 offset_left = 264.0
-offset_top = 292.0
-offset_right = 817.0
-offset_bottom = 434.0
+offset_top = 42.0
+offset_right = 576.0
+offset_bottom = 184.0
 text = "LEVEL 1"
 icon = ExtResource("1_23gxq")
 script = ExtResource("2_6smk5")
 
 [node name="Button2" type="Button" parent="."]
-offset_left = 263.0
-offset_top = 489.0
-offset_right = 816.0
-offset_bottom = 625.0
+offset_left = 266.0
+offset_top = 209.0
+offset_right = 579.0
+offset_bottom = 345.0
 text = "LEVEL 2"
 icon = ExtResource("1_23gxq")
 script = ExtResource("3_prf01")
@@ -43,8 +32,33 @@ offset_left = 1054.0
 offset_top = 4.0
 offset_right = 1150.0
 offset_bottom = 35.0
-text = "secret level"
+text = "secret level
+(locked)"
 script = ExtResource("4_spsnn")
+
+[node name="level_1" type="Label" parent="."]
+offset_left = 596.0
+offset_top = 28.0
+offset_right = 694.0
+offset_bottom = 174.0
+theme_override_font_sizes/font_size = 100
+text = "[-]"
+
+[node name="secret_level" type="Label" parent="."]
+offset_left = 1017.0
+offset_top = -6.0
+offset_right = 1046.0
+offset_bottom = 37.0
+theme_override_font_sizes/font_size = 30
+text = "[-]"
+
+[node name="level_2" type="Label" parent="."]
+offset_left = 595.0
+offset_top = 196.0
+offset_right = 693.0
+offset_bottom = 342.0
+theme_override_font_sizes/font_size = 100
+text = "[-]"
 
 [connection signal="pressed" from="Button" to="Button" method="_on_pressed"]
 [connection signal="pressed" from="Button2" to="Button2" method="_on_pressed"]

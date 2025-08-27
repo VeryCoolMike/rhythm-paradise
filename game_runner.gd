@@ -6,6 +6,7 @@ var song_end_time = 999; # 101.03
 var song_ended = false;
 var song_name = "YOU ARE IN LEVEL EDITING MODE!"
 var scroll_speed = 600
+var current_level = ""
 
 var level_editing = false
 
@@ -53,8 +54,10 @@ enum AccuracyRank {
 	D, # < 75.0
 }
 
-func load_game(level):
+func load_game(level, level_string = "empty"):
 	song_start_time = get_time();
+
+	current_level = level_string
 
 	if level_editing == false:
 		var file := FileAccess.open(level, FileAccess.READ)
@@ -408,6 +411,16 @@ func handle_end_of_song():
 		print("You're getting there, you got a C rank.")
 	elif rank == AccuracyRank.D:
 		print("You're a bit off. You got a D rank.")
+
+	if current_level == "level_1":
+		GlobalData.level_1_rank = rank
+	elif current_level == "level_2":
+		GlobalData.level_2_rank = rank
+	elif current_level == "secret_level":
+		GlobalData.secret_level_rank = rank
+
+	GlobalData.latest_rank = rank
+	GlobalData.latest_accuracy = percentage_accuracy
 
 	get_tree().change_scene_to_file("res://game_end.tscn")
 

@@ -1,5 +1,6 @@
-[gd_scene load_steps=4 format=3 uid="uid://x4mt3sw3niwu"]
+[gd_scene load_steps=5 format=3 uid="uid://x4mt3sw3niwu"]
 
+[ext_resource type="Script" uid="uid://vhp5f7ocfeia" path="res://game_end.gd" id="1_c8kn0"]
 [ext_resource type="FontFile" uid="uid://bid8jxa12q31g" path="res://BitcountPropSingle-VariableFont_CRSV,ELSH,ELXP,slnt,wght.ttf" id="1_npjxs"]
 [ext_resource type="Script" uid="uid://c32u5q2u5vitx" path="res://return_menu.gd" id="2_tqwxg"]
 
@@ -16,6 +17,7 @@ corner_radius_bottom_right = 10
 corner_radius_bottom_left = 10
 
 [node name="Node2D" type="Node2D"]
+script = ExtResource("1_c8kn0")
 
 [node name="ColorRect" type="ColorRect" parent="."]
 z_index = -10
@@ -29,7 +31,7 @@ layout_mode = 0
 offset_left = 136.0
 offset_top = 84.0
 offset_right = 306.0
-offset_bottom = 154.0
+offset_bottom = 163.0
 scale = Vector2(5, 5)
 theme_override_styles/panel = SubResource("StyleBoxFlat_npjxs")
 
@@ -49,7 +51,7 @@ layout_mode = 0
 offset_left = 606.0
 offset_top = 239.0
 offset_right = 682.0
-offset_bottom = 278.0
+offset_bottom = 287.0
 scale = Vector2(5, 5)
 theme_override_styles/panel = SubResource("StyleBoxFlat_npjxs")
 
@@ -63,7 +65,7 @@ offset_bottom = 117.0
 scale = Vector2(5, 5)
 theme_override_styles/panel = SubResource("StyleBoxFlat_npjxs")
 
-[node name="Label" type="Label" parent="ColorRect"]
+[node name="rank" type="Label" parent="ColorRect"]
 layout_mode = 0
 offset_left = 165.0
 offset_top = 69.0
@@ -85,10 +87,22 @@ theme_override_fonts/font = ExtResource("1_npjxs")
 theme_override_font_sizes/font_size = 140
 text = "Nice!"
 
+[node name="accuracy" type="Label" parent="ColorRect"]
+layout_mode = 0
+offset_left = 187.0
+offset_top = 263.0
+offset_right = 583.0
+offset_bottom = 480.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("1_npjxs")
+theme_override_font_sizes/font_size = 80
+text = "98.75%
+Accuracy"
+
 [node name="Button" type="Button" parent="ColorRect"]
 layout_mode = 0
 offset_left = 180.0
-offset_top = 457.0
+offset_top = 500.0
 offset_right = 946.0
 offset_bottom = 622.0
 text = "CONTINUE!!!"
