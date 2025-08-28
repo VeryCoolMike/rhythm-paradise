@@ -21,8 +21,8 @@ GlobalData="*res://global.gd"
 
 [display]
 
-window/stretch/mode="viewport"
-window/stretch/aspect="expand"
+window/stretch/mode="canvas_items"
+window/stretch/aspect="ignore"
 
 [input]
 
