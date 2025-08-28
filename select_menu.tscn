@@ -1,12 +1,17 @@
-[gd_scene load_steps=9 format=3 uid="uid://bxaesx3w5sium"]
+[gd_scene load_steps=17 format=3 uid="uid://bxaesx3w5sium"]
 
-[ext_resource type="Texture2D" uid="uid://u6yu6xvnld30" path="res://icon.svg" id="1_23gxq"]
 [ext_resource type="Script" uid="uid://1c3pcp1ug610" path="res://select_menu.gd" id="1_evers"]
-[ext_resource type="Script" uid="uid://c5wn64mg1kpt5" path="res://levels/level_1/level_1_button.gd" id="2_6smk5"]
 [ext_resource type="Shader" uid="uid://cgn6u8fenp5dq" path="res://background.gdshader" id="2_whi60"]
 [ext_resource type="FontFile" uid="uid://bid8jxa12q31g" path="res://BitcountPropSingle-VariableFont_CRSV,ELSH,ELXP,slnt,wght.ttf" id="3_foyel"]
-[ext_resource type="Script" uid="uid://soilt61bh0cb" path="res://levels/level_2/level_2_button.gd" id="3_prf01"]
-[ext_resource type="Script" uid="uid://wev7c46spbuv" path="res://levels/secret_level/secret_level_button.gd" id="4_spsnn"]
+[ext_resource type="Script" uid="uid://bsoj1onpkki5f" path="res://new_game.gd" id="3_spsnn"]
+[ext_resource type="PackedScene" uid="uid://8vchlwvfak7h" path="res://levels/layer_1/level_2/level_2.tscn" id="4_evers"]
+[ext_resource type="PackedScene" uid="uid://12nma3i7svlr" path="res://levels/layer_1/level_1/level_1.tscn" id="5_sgdki"]
+[ext_resource type="PackedScene" uid="uid://dcw6kn13ew8on" path="res://levels/layer_1/level_3/level_3.tscn" id="7_foyel"]
+[ext_resource type="PackedScene" uid="uid://die33pqyg371f" path="res://levels/layer_1/level_4/secret_level.tscn" id="8_evhv5"]
+[ext_resource type="PackedScene" uid="uid://mipxuk5pdrfo" path="res://levels/layer_2/level_1/level_1.tscn" id="9_evhv5"]
+[ext_resource type="PackedScene" uid="uid://bq8w5wmuusgoh" path="res://levels/layer_2/level_2/level_2.tscn" id="10_oye6m"]
+[ext_resource type="PackedScene" uid="uid://dbct0kwudcgts" path="res://levels/layer_2/level_3/level_3.tscn" id="11_pj2nt"]
+[ext_resource type="PackedScene" uid="uid://d1n64vu4jwa4p" path="res://levels/layer_2/level_4/secret_level.tscn" id="12_8ecnm"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_evhv5"]
 shader = ExtResource("2_whi60")
@@ -25,69 +30,227 @@ shader_parameter/lighting = 0.4
 shader_parameter/spin_amount = 0.36
 shader_parameter/pixel_filter = 700.0
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jix8l"]
+bg_color = Color(0, 0, 0, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_glbon"]
+bg_color = Color(0.0177324, 0.0177324, 0.0177324, 1)
+skew = Vector2(0.01, 0)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0, 0, 0, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="Theme" id="Theme_sgdki"]
+Button/styles/hover = SubResource("StyleBoxFlat_jix8l")
+Button/styles/normal = SubResource("StyleBoxFlat_glbon")
+
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_evers")
 
-[node name="ColorRect2" type="ColorRect" parent="."]
+[node name="ColorRect" type="ColorRect" parent="."]
 material = SubResource("ShaderMaterial_evhv5")
 offset_right = 1164.0
 offset_bottom = 648.0
 
-[node name="Button" type="Button" parent="."]
-offset_left = 264.0
-offset_top = 42.0
-offset_right = 576.0
-offset_bottom = 184.0
+[node name="layer_1" type="ColorRect" parent="ColorRect"]
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 648.0
+color = Color(1, 1, 1, 0)
+
+[node name="level_1" type="Button" parent="ColorRect/layer_1"]
+layout_mode = 2
+offset_top = 200.0
+offset_right = 1152.0
+offset_bottom = 271.0
+theme = SubResource("Theme_sgdki")
 theme_override_fonts/font = ExtResource("3_foyel")
-theme_override_font_sizes/font_size = 30
-text = "LEVEL 1"
-icon = ExtResource("1_23gxq")
-script = ExtResource("2_6smk5")
+theme_override_font_sizes/font_size = 55
+text = "LEVEL 1 [-]"
+script = ExtResource("3_spsnn")
+scene = ExtResource("5_sgdki")
 
-[node name="Button2" type="Button" parent="."]
-offset_left = 266.0
-offset_top = 209.0
-offset_right = 579.0
-offset_bottom = 345.0
-theme_override_fonts/font = ExtResource("3_foyel")
-theme_override_font_sizes/font_size = 30
-text = "LEVEL 2"
-icon = ExtResource("1_23gxq")
-script = ExtResource("3_prf01")
-
-[node name="Button3" type="Button" parent="."]
-offset_left = 1054.0
-offset_top = 4.0
-offset_right = 1150.0
-offset_bottom = 35.0
-text = "secret level
-(locked)"
-script = ExtResource("4_spsnn")
-
-[node name="level_1" type="Label" parent="."]
-offset_left = 596.0
-offset_top = 28.0
-offset_right = 694.0
-offset_bottom = 174.0
-theme_override_font_sizes/font_size = 100
-text = "[-]"
-
-[node name="secret_level" type="Label" parent="."]
-offset_left = 1017.0
-offset_top = -6.0
-offset_right = 1046.0
-offset_bottom = 37.0
-theme_override_font_sizes/font_size = 30
-text = "[-]"
-
-[node name="level_2" type="Label" parent="."]
-offset_left = 595.0
-offset_top = 196.0
-offset_right = 693.0
+[node name="level_2" type="Button" parent="ColorRect/layer_1"]
+layout_mode = 2
+offset_top = 271.0
+offset_right = 1152.0
 offset_bottom = 342.0
-theme_override_font_sizes/font_size = 100
-text = "[-]"
+theme = SubResource("Theme_sgdki")
+theme_override_fonts/font = ExtResource("3_foyel")
+theme_override_font_sizes/font_size = 55
+text = "LEVEL 2 [-]"
+script = ExtResource("3_spsnn")
+scene = ExtResource("4_evers")
 
-[connection signal="pressed" from="Button" to="Button" method="_on_pressed"]
-[connection signal="pressed" from="Button2" to="Button2" method="_on_pressed"]
-[connection signal="pressed" from="Button3" to="Button3" method="_on_pressed"]
+[node name="level_3" type="Button" parent="ColorRect/layer_1"]
+layout_mode = 2
+offset_top = 342.0
+offset_right = 1152.0
+offset_bottom = 413.0
+theme = SubResource("Theme_sgdki")
+theme_override_fonts/font = ExtResource("3_foyel")
+theme_override_font_sizes/font_size = 55
+text = "LEVEL 3 [-]"
+script = ExtResource("3_spsnn")
+scene = ExtResource("7_foyel")
+
+[node name="level_4" type="Button" parent="ColorRect/layer_1"]
+layout_mode = 2
+offset_top = 413.0
+offset_right = 1152.0
+offset_bottom = 484.0
+theme = SubResource("Theme_sgdki")
+theme_override_fonts/font = ExtResource("3_foyel")
+theme_override_font_sizes/font_size = 55
+text = "SECRET LEVEL [-]"
+script = ExtResource("3_spsnn")
+scene = ExtResource("8_evhv5")
+secret_level = "1"
+
+[node name="Label2" type="Label" parent="ColorRect/layer_1"]
+layout_mode = 2
+offset_top = 54.0
+offset_right = 1152.0
+offset_bottom = 174.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_foyel")
+theme_override_font_sizes/font_size = 100
+text = "-- Layer 1--"
+horizontal_alignment = 1
+
+[node name="layer_2" type="ColorRect" parent="ColorRect"]
+visible = false
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 648.0
+color = Color(1, 1, 1, 0)
+
+[node name="level_1" type="Button" parent="ColorRect/layer_2"]
+layout_mode = 2
+offset_top = 200.0
+offset_right = 1152.0
+offset_bottom = 271.0
+theme = SubResource("Theme_sgdki")
+theme_override_fonts/font = ExtResource("3_foyel")
+theme_override_font_sizes/font_size = 55
+text = "LEVEL 1 [-]"
+script = ExtResource("3_spsnn")
+scene = ExtResource("9_evhv5")
+
+[node name="level_2" type="Button" parent="ColorRect/layer_2"]
+layout_mode = 2
+offset_top = 271.0
+offset_right = 1152.0
+offset_bottom = 342.0
+theme = SubResource("Theme_sgdki")
+theme_override_fonts/font = ExtResource("3_foyel")
+theme_override_font_sizes/font_size = 55
+text = "LEVEL 2 [-]"
+script = ExtResource("3_spsnn")
+scene = ExtResource("10_oye6m")
+
+[node name="level_3" type="Button" parent="ColorRect/layer_2"]
+layout_mode = 2
+offset_top = 342.0
+offset_right = 1152.0
+offset_bottom = 413.0
+theme = SubResource("Theme_sgdki")
+theme_override_fonts/font = ExtResource("3_foyel")
+theme_override_font_sizes/font_size = 55
+text = "LEVEL 3 [-]"
+script = ExtResource("3_spsnn")
+scene = ExtResource("11_pj2nt")
+
+[node name="level_4" type="Button" parent="ColorRect/layer_2"]
+layout_mode = 2
+offset_left = -1.0
+offset_top = 413.0
+offset_right = 1151.0
+offset_bottom = 484.0
+theme = SubResource("Theme_sgdki")
+theme_override_fonts/font = ExtResource("3_foyel")
+theme_override_font_sizes/font_size = 55
+text = "SECRET LEVEL [-]"
+script = ExtResource("3_spsnn")
+scene = ExtResource("12_8ecnm")
+secret_level = "2"
+
+[node name="Label2" type="Label" parent="ColorRect/layer_2"]
+layout_mode = 2
+offset_top = 54.0
+offset_right = 1152.0
+offset_bottom = 174.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_foyel")
+theme_override_font_sizes/font_size = 100
+text = "-- Layer 2--"
+horizontal_alignment = 1
+
+[node name="back" type="Button" parent="ColorRect"]
+layout_mode = 2
+offset_top = 577.0
+offset_right = 576.0
+offset_bottom = 648.0
+theme = SubResource("Theme_sgdki")
+theme_override_fonts/font = ExtResource("3_foyel")
+theme_override_font_sizes/font_size = 55
+text = "<"
+
+[node name="forward" type="Button" parent="ColorRect"]
+layout_mode = 2
+offset_left = 576.0
+offset_top = 577.0
+offset_right = 1152.0
+offset_bottom = 648.0
+theme = SubResource("Theme_sgdki")
+theme_override_fonts/font = ExtResource("3_foyel")
+theme_override_font_sizes/font_size = 55
+text = ">"
+
+[connection signal="focus_entered" from="ColorRect/layer_1/level_1" to="ColorRect/layer_1/level_1" method="_on_focus_entered"]
+[connection signal="focus_exited" from="ColorRect/layer_1/level_1" to="ColorRect/layer_1/level_1" method="_on_focus_exited"]
+[connection signal="pressed" from="ColorRect/layer_1/level_1" to="ColorRect/layer_1/level_1" method="_on_pressed"]
+[connection signal="focus_entered" from="ColorRect/layer_1/level_2" to="ColorRect/layer_1/level_2" method="_on_focus_entered"]
+[connection signal="focus_exited" from="ColorRect/layer_1/level_2" to="ColorRect/layer_1/level_2" method="_on_focus_exited"]
+[connection signal="pressed" from="ColorRect/layer_1/level_2" to="ColorRect/layer_1/level_2" method="_on_pressed"]
+[connection signal="focus_entered" from="ColorRect/layer_1/level_3" to="ColorRect/layer_1/level_3" method="_on_focus_entered"]
+[connection signal="focus_exited" from="ColorRect/layer_1/level_3" to="ColorRect/layer_1/level_3" method="_on_focus_exited"]
+[connection signal="pressed" from="ColorRect/layer_1/level_3" to="ColorRect/layer_1/level_3" method="_on_pressed"]
+[connection signal="focus_entered" from="ColorRect/layer_1/level_4" to="ColorRect/layer_1/level_4" method="_on_focus_entered"]
+[connection signal="focus_exited" from="ColorRect/layer_1/level_4" to="ColorRect/layer_1/level_4" method="_on_focus_exited"]
+[connection signal="pressed" from="ColorRect/layer_1/level_4" to="ColorRect/layer_1/level_4" method="_on_pressed"]
+[connection signal="focus_entered" from="ColorRect/layer_2/level_1" to="ColorRect/layer_2/level_1" method="_on_focus_entered"]
+[connection signal="focus_exited" from="ColorRect/layer_2/level_1" to="ColorRect/layer_2/level_1" method="_on_focus_exited"]
+[connection signal="pressed" from="ColorRect/layer_2/level_1" to="ColorRect/layer_2/level_1" method="_on_pressed"]
+[connection signal="focus_entered" from="ColorRect/layer_2/level_2" to="ColorRect/layer_2/level_2" method="_on_focus_entered"]
+[connection signal="focus_exited" from="ColorRect/layer_2/level_2" to="ColorRect/layer_2/level_2" method="_on_focus_exited"]
+[connection signal="pressed" from="ColorRect/layer_2/level_2" to="ColorRect/layer_2/level_2" method="_on_pressed"]
+[connection signal="focus_entered" from="ColorRect/layer_2/level_3" to="ColorRect/layer_2/level_3" method="_on_focus_entered"]
+[connection signal="focus_exited" from="ColorRect/layer_2/level_3" to="ColorRect/layer_2/level_3" method="_on_focus_exited"]
+[connection signal="pressed" from="ColorRect/layer_2/level_3" to="ColorRect/layer_2/level_3" method="_on_pressed"]
+[connection signal="focus_entered" from="ColorRect/layer_2/level_4" to="ColorRect/layer_2/level_4" method="_on_focus_entered"]
+[connection signal="focus_exited" from="ColorRect/layer_2/level_4" to="ColorRect/layer_2/level_4" method="_on_focus_exited"]
+[connection signal="pressed" from="ColorRect/layer_2/level_4" to="ColorRect/layer_2/level_4" method="_on_pressed"]
+[connection signal="focus_entered" from="ColorRect/back" to="ColorRect/back" method="_on_focus_entered"]
+[connection signal="focus_exited" from="ColorRect/back" to="ColorRect/back" method="_on_focus_exited"]
+[connection signal="pressed" from="ColorRect/back" to="." method="_on_back_pressed"]
+[connection signal="pressed" from="ColorRect/back" to="ColorRect/back" method="_on_pressed"]
+[connection signal="focus_entered" from="ColorRect/forward" to="ColorRect/forward" method="_on_focus_entered"]
+[connection signal="focus_exited" from="ColorRect/forward" to="ColorRect/forward" method="_on_focus_exited"]
+[connection signal="pressed" from="ColorRect/forward" to="." method="_on_forward_pressed"]
+[connection signal="pressed" from="ColorRect/forward" to="ColorRect/forward" method="_on_pressed"]

@@ -1,43 +1,73 @@
 extends Node2D
 
-func secret_unlocked_check() -> bool:
-    if GlobalData.level_1_rank == 0 and GlobalData.level_2_rank == 0:
-        return true
-    else:
-        return false
+var current_layer = 1
+
+func secret_unlocked_check(layer) -> bool:
+	if layer == 1:
+		if GlobalData.rank_1_1 == 0 and GlobalData.rank_1_2 == 0 and GlobalData.rank_1_3 == 0:
+			return true
+		else:
+			return false
+	elif layer == 2:
+		if GlobalData.rank_2_1 == 0 and GlobalData.rank_2_2 == 0 and GlobalData.rank_2_3 == 0:
+			return true
+		else:
+			return false
+	else:
+		return false
+
+func refresh_visible() -> void:
+	if current_layer == 1:
+		$ColorRect/layer_1.visible = true
+		$ColorRect/layer_2.visible = false
+	else:
+		$ColorRect/layer_1.visible = false
+		$ColorRect/layer_2.visible = true
 
 func accuracy_to_rank(accuracy: int) -> String:
-    match accuracy:
-        0:
-            return "[P]"
-        1:
-            return "[S]"
-        2:
-            return "[A]"
-        3:
-            return "[B]"
-        4:
-            return "[C]"
-        5:
-            return "[D]"
-        _:
-            return "[-]"
+	match accuracy:
+		0:
+			return "[P]"
+		1:
+			return "[S]"
+		2:
+			return "[A]"
+		3:
+			return "[B]"
+		4:
+			return "[C]"
+		5:
+			return "[D]"
+		_:
+			return "[-]"
 
 func _ready() -> void:
-    if secret_unlocked_check():
-        GlobalData.secret_level_unlocked = true
-    else:
-        GlobalData.secret_level_unlocked = false
-    
-    if GlobalData.secret_level_unlocked == true:
-        $Button3.text = "secret level\n(unlocked)"
-    else:
-        $Button3.text = "secret level\n(locked)"
+	if secret_unlocked_check(1):
+		GlobalData.unlocked_1 = true
+	if secret_unlocked_check(2):
+		GlobalData.unlocked_2 = true
+	
+	$ColorRect/layer_1/level_1.text = "LEVEL 1 " + accuracy_to_rank(GlobalData.rank_1_1)
+	$ColorRect/layer_1/level_2.text = "LEVEL 2 " + accuracy_to_rank(GlobalData.rank_1_2)
+	$ColorRect/layer_1/level_3.text = "LEVEL 3 " + accuracy_to_rank(GlobalData.rank_1_3)
+	$ColorRect/layer_1/level_4.text = "SECRET LEVEL " + accuracy_to_rank(GlobalData.rank_1_4)
 
-    $level_1.text = accuracy_to_rank(GlobalData.level_1_rank)
-    $level_2.text = accuracy_to_rank(GlobalData.level_2_rank)
-    $secret_level.text = accuracy_to_rank(GlobalData.secret_level_rank)
+	$ColorRect/layer_2/level_1.text = "LEVEL 1 " + accuracy_to_rank(GlobalData.rank_2_1)
+	$ColorRect/layer_2/level_2.text = "LEVEL 2 " + accuracy_to_rank(GlobalData.rank_2_2)
+	$ColorRect/layer_2/level_3.text = "LEVEL 3 " + accuracy_to_rank(GlobalData.rank_2_3)
+	$ColorRect/layer_2/level_4.text = "SECRET LEVEL " + accuracy_to_rank(GlobalData.rank_2_4)
+
+
+func _on_forward_pressed() -> void:
+	if current_layer < 2: # The amount of layers
+		current_layer += 1
+		refresh_visible()
+
+func _on_back_pressed() -> void:
+	if current_layer > 1:
+		current_layer -= 1
+		refresh_visible()
 
 func _process(delta):
-    if Input.is_action_just_pressed("menu"):
-        get_tree().change_scene_to_file("res://main_menu.tscn")
+	if Input.is_action_just_pressed("menu"):
+		get_tree().change_scene_to_file("res://main_menu.tscn")

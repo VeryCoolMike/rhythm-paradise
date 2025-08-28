@@ -5,8 +5,11 @@ var song_start_time = 0.0;
 var song_end_time = 999; # 101.03
 var song_ended = false;
 var song_name = "YOU ARE IN LEVEL EDITING MODE!"
-var scroll_speed = 600
+var scroll_speed = 800
 var current_level = ""
+
+var json_file: String = ""
+var level_name: String = "empty"
 
 var level_editing = false
 
@@ -55,6 +58,8 @@ enum AccuracyRank {
 }
 
 func load_game(level, level_string = "empty"):
+	print(level)
+	print(level_string)
 	song_start_time = get_time();
 
 	current_level = level_string
@@ -414,12 +419,23 @@ func handle_end_of_song():
 	elif rank == AccuracyRank.D:
 		print("You're a bit off. You got a D rank.")
 
-	if current_level == "level_1":
-		GlobalData.level_1_rank = rank
-	elif current_level == "level_2":
-		GlobalData.level_2_rank = rank
-	elif current_level == "secret_level":
-		GlobalData.secret_level_rank = rank
+	if current_level == "1_1":
+		GlobalData.rank_1_1 = rank
+	elif current_level == "1_2":
+		GlobalData.rank_1_2 = rank
+	elif current_level == "1_3":
+		GlobalData.rank_1_3 = rank
+	elif current_level == "1_4":
+		GlobalData.rank_1_4 = rank
+
+	if current_level == "2_1":
+		GlobalData.rank_2_1 = rank
+	elif current_level == "2_2":
+		GlobalData.rank_2_2 = rank
+	elif current_level == "2_3":
+		GlobalData.rank_2_3 = rank
+	elif current_level == "2_4":
+		GlobalData.rank_2_4 = rank
 
 	GlobalData.latest_rank = rank
 	GlobalData.latest_accuracy = percentage_accuracy

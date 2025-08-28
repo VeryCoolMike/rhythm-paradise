@@ -1,10 +1,18 @@
 extends Node2D
 
-var level_1_rank = -1
-var level_2_rank = -1
+# Layer 1
+var rank_1_1 = -1
+var rank_1_2 = -1
+var rank_1_3 = -1
+var rank_1_4 = -1
+var unlocked_1 = false
 
-var secret_level_rank = -1
-var secret_level_unlocked = false
+# Layer 2
+var rank_2_1 = -1
+var rank_2_2 = -1
+var rank_2_3 = -1
+var rank_2_4 = -1
+var unlocked_2 = false
 
 var latest_rank = -1
 var latest_accuracy = -1.00
