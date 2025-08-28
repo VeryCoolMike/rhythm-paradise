@@ -1,9 +1,28 @@
-[gd_scene load_steps=7 format=3 uid="uid://qpajl06aai4m"]
+[gd_scene load_steps=10 format=3 uid="uid://qpajl06aai4m"]
 
 [ext_resource type="Script" uid="uid://wvu8wx00satt" path="res://button.gd" id="1_06t4h"]
+[ext_resource type="Shader" uid="uid://cgn6u8fenp5dq" path="res://background.gdshader" id="1_jix8l"]
 [ext_resource type="FontFile" uid="uid://bid8jxa12q31g" path="res://BitcountPropSingle-VariableFont_CRSV,ELSH,ELXP,slnt,wght.ttf" id="2_7vrkn"]
+[ext_resource type="Script" uid="uid://dpnj3oels2awm" path="res://settings.gd" id="4_glbon"]
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7vrkn"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_nlkkf"]
+shader = ExtResource("1_jix8l")
+shader_parameter/polar_coordinates = false
+shader_parameter/polar_center = Vector2(0.5, 0.5)
+shader_parameter/polar_zoom = 1.0
+shader_parameter/polar_repeat = 1.0
+shader_parameter/spin_rotation = 0.0
+shader_parameter/spin_speed = 1.0
+shader_parameter/offset = Vector2(0, 0)
+shader_parameter/colour_1 = Color(0.0531662, 0.0430898, 0.0376814, 1)
+shader_parameter/colour_2 = Color(0, 0, 0, 1)
+shader_parameter/colour_3 = Color(0, 0, 0, 1)
+shader_parameter/contrast = 2.0
+shader_parameter/lighting = 0.4
+shader_parameter/spin_amount = 0.36
+shader_parameter/pixel_filter = 700.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jix8l"]
 bg_color = Color(0, 0, 0, 1)
 border_width_left = 2
 border_width_top = 2
@@ -15,7 +34,7 @@ corner_radius_top_right = 10
 corner_radius_bottom_right = 10
 corner_radius_bottom_left = 10
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_fu7sn"]
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_glbon"]
 bg_color = Color(0.0177324, 0.0177324, 0.0177324, 1)
 skew = Vector2(0.01, 0)
 border_width_left = 2
@@ -29,8 +48,8 @@ corner_radius_bottom_right = 10
 corner_radius_bottom_left = 10
 
 [sub_resource type="Theme" id="Theme_jix8l"]
-Button/styles/hover = SubResource("StyleBoxFlat_7vrkn")
-Button/styles/normal = SubResource("StyleBoxFlat_fu7sn")
+Button/styles/hover = SubResource("StyleBoxFlat_jix8l")
+Button/styles/normal = SubResource("StyleBoxFlat_glbon")
 
 [sub_resource type="LabelSettings" id="LabelSettings_glbon"]
 font = ExtResource("2_7vrkn")
@@ -39,10 +58,10 @@ shadow_color = Color(0.495509, 0.495509, 0.495509, 1)
 
 [node name="Node2D" type="Node2D"]
 
-[node name="ColorRect" type="ColorRect" parent="."]
-offset_right = 1150.0
-offset_bottom = 649.0
-color = Color(0.0121498, 0.0161741, 0.00680119, 1)
+[node name="ColorRect2" type="ColorRect" parent="."]
+material = SubResource("ShaderMaterial_nlkkf")
+offset_right = 1164.0
+offset_bottom = 648.0
 
 [node name="Button" type="Button" parent="."]
 offset_left = 412.0
@@ -54,6 +73,17 @@ theme_override_fonts/font = ExtResource("2_7vrkn")
 theme_override_font_sizes/font_size = 55
 text = "PLAY"
 script = ExtResource("1_06t4h")
+
+[node name="Button2" type="Button" parent="."]
+offset_left = 412.0
+offset_top = 370.0
+offset_right = 712.0
+offset_bottom = 470.0
+theme = SubResource("Theme_jix8l")
+theme_override_fonts/font = ExtResource("2_7vrkn")
+theme_override_font_sizes/font_size = 55
+text = "SETTINGS"
+script = ExtResource("4_glbon")
 
 [node name="Label" type="Label" parent="."]
 offset_left = 442.0
@@ -68,3 +98,6 @@ horizontal_alignment = 1
 [connection signal="focus_entered" from="Button" to="Button" method="_on_focus_entered"]
 [connection signal="focus_exited" from="Button" to="Button" method="_on_focus_exited"]
 [connection signal="pressed" from="Button" to="Button" method="_on_pressed"]
+[connection signal="focus_entered" from="Button2" to="Button2" method="_on_focus_entered"]
+[connection signal="focus_exited" from="Button2" to="Button2" method="_on_focus_exited"]
+[connection signal="pressed" from="Button2" to="Button2" method="_on_pressed"]

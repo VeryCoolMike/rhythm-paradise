@@ -1,14 +1,37 @@
-[gd_scene load_steps=5 format=3 uid="uid://8vchlwvfak7h"]
+[gd_scene load_steps=7 format=3 uid="uid://8vchlwvfak7h"]
 
 [ext_resource type="Script" uid="uid://5swvsaka62ju" path="res://levels/level_2/level_2.gd" id="1_xdadj"]
+[ext_resource type="Shader" uid="uid://cgn6u8fenp5dq" path="res://background.gdshader" id="2_b2p4p"]
 [ext_resource type="AudioStream" uid="uid://ddnlveur1bic0" path="res://levels/level_2/level_2.mp3" id="2_xdadj"]
 [ext_resource type="Script" uid="uid://dgusronl1qx3h" path="res://audio_player.gd" id="3_n7ypv"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_4nbo2"]
+shader = ExtResource("2_b2p4p")
+shader_parameter/polar_coordinates = false
+shader_parameter/polar_center = Vector2(0.5, 0.5)
+shader_parameter/polar_zoom = 1.0
+shader_parameter/polar_repeat = 1.0
+shader_parameter/spin_rotation = 0.0
+shader_parameter/spin_speed = 1.0
+shader_parameter/offset = Vector2(0, 0)
+shader_parameter/colour_1 = Color(0.190715, 0.154468, 0.0589614, 1)
+shader_parameter/colour_2 = Color(0.544336, 0.311146, 0.0456945, 1)
+shader_parameter/colour_3 = Color(0.00229815, 0.0591457, 0.126486, 1)
+shader_parameter/contrast = 2.0
+shader_parameter/lighting = 0.4
+shader_parameter/spin_amount = 0.36
+shader_parameter/pixel_filter = 700.0
 
 [sub_resource type="LabelSettings" id="LabelSettings_ilcil"]
 font_size = 50
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_xdadj")
+
+[node name="ColorRect2" type="ColorRect" parent="."]
+material = SubResource("ShaderMaterial_4nbo2")
+offset_right = 1164.0
+offset_bottom = 648.0
 
 [node name="ColorRect" type="ColorRect" parent="."]
 anchors_preset = 8

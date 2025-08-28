@@ -58,6 +58,7 @@ func load_game(level, level_string = "empty"):
 	song_start_time = get_time();
 
 	current_level = level_string
+	scroll_speed = GlobalData.scroll_speed
 
 	if level_editing == false:
 		var file := FileAccess.open(level, FileAccess.READ)
@@ -294,7 +295,7 @@ func format_info() -> String:
 	var miss_score = "[p]MISS: " + str(scores[Accuracy.MISS]) + "[/p]"
 	var extra = ""
 	if scores[Accuracy.MISS] == 0:
-		extra += "[p]FULL PERFECT[/p]"
+		extra += "[p]FULL CLEAR[/p]"
 		
 	return info_song_name + time_in_song + super_score + great_score + good_score + meh_score + bad_score + miss_score + extra
 

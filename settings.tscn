@@ -1,0 +1,93 @@
+[gd_scene load_steps=9 format=3 uid="uid://etj4cn6t2mcw"]
+
+[ext_resource type="Script" uid="uid://y01wdyqwopwi" path="res://settings_page.gd" id="1_nkug2"]
+[ext_resource type="Shader" uid="uid://cgn6u8fenp5dq" path="res://background.gdshader" id="2_3lj6o"]
+[ext_resource type="FontFile" uid="uid://bid8jxa12q31g" path="res://BitcountPropSingle-VariableFont_CRSV,ELSH,ELXP,slnt,wght.ttf" id="3_6mhpt"]
+[ext_resource type="Script" uid="uid://bvijampkhehi4" path="res://apply_settings.gd" id="4_gc0em"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_evhv5"]
+shader = ExtResource("2_3lj6o")
+shader_parameter/polar_coordinates = false
+shader_parameter/polar_center = Vector2(0.5, 0.5)
+shader_parameter/polar_zoom = 1.0
+shader_parameter/polar_repeat = 1.0
+shader_parameter/spin_rotation = 0.0
+shader_parameter/spin_speed = 1.0
+shader_parameter/offset = Vector2(0, 0)
+shader_parameter/colour_1 = Color(0.0531662, 0.0430898, 0.0376814, 1)
+shader_parameter/colour_2 = Color(0, 0, 0, 1)
+shader_parameter/colour_3 = Color(0, 0, 0, 1)
+shader_parameter/contrast = 2.0
+shader_parameter/lighting = 0.4
+shader_parameter/spin_amount = 0.36
+shader_parameter/pixel_filter = 700.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_gc0em"]
+bg_color = Color(0, 0, 0, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_cj1lu"]
+bg_color = Color(0.0177324, 0.0177324, 0.0177324, 1)
+skew = Vector2(0.01, 0)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0, 0, 0, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="Theme" id="Theme_cj1lu"]
+Button/styles/hover = SubResource("StyleBoxFlat_gc0em")
+Button/styles/normal = SubResource("StyleBoxFlat_cj1lu")
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_nkug2")
+
+[node name="ColorRect2" type="ColorRect" parent="."]
+material = SubResource("ShaderMaterial_evhv5")
+offset_right = 1164.0
+offset_bottom = 648.0
+
+[node name="Button" type="Button" parent="."]
+offset_left = 412.0
+offset_top = 500.0
+offset_right = 712.0
+offset_bottom = 600.0
+theme = SubResource("Theme_cj1lu")
+theme_override_fonts/font = ExtResource("3_6mhpt")
+theme_override_font_sizes/font_size = 55
+text = "APPLY"
+script = ExtResource("4_gc0em")
+
+[node name="scroll_speed" type="TextEdit" parent="."]
+offset_left = 272.0
+offset_top = 136.0
+offset_right = 516.0
+offset_bottom = 237.0
+theme_override_fonts/font = ExtResource("3_6mhpt")
+theme_override_font_sizes/font_size = 80
+text = "600"
+
+[node name="Label" type="Label" parent="."]
+offset_left = 548.0
+offset_top = 154.0
+offset_right = 1004.0
+offset_bottom = 227.0
+theme_override_fonts/font = ExtResource("3_6mhpt")
+theme_override_font_sizes/font_size = 60
+text = "SCROLL SPEED"
+
+[connection signal="focus_entered" from="Button" to="Button" method="_on_focus_entered"]
+[connection signal="focus_exited" from="Button" to="Button" method="_on_focus_exited"]
+[connection signal="pressed" from="Button" to="Button" method="_on_pressed"]

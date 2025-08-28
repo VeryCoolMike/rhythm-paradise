@@ -37,3 +37,7 @@ func _ready() -> void:
     $level_1.text = accuracy_to_rank(GlobalData.level_1_rank)
     $level_2.text = accuracy_to_rank(GlobalData.level_2_rank)
     $secret_level.text = accuracy_to_rank(GlobalData.secret_level_rank)
+
+func _process(delta):
+    if Input.is_action_just_pressed("menu"):
+        get_tree().change_scene_to_file("res://main_menu.tscn")

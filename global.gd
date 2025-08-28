@@ -8,3 +8,5 @@ var secret_level_unlocked = false
 
 var latest_rank = -1
 var latest_accuracy = -1.00
+
+var scroll_speed = 800
