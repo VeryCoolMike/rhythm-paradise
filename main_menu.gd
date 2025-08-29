@@ -24,3 +24,14 @@ func _unhandled_input(event: InputEvent) -> void:
 func _on_konami_code() -> void:
 	print("Secret activated!")
 	get_tree().change_scene_to_file("res://levels/secret_level/secret_level.tscn")
+
+func _ready() -> void:
+	if not FileAccess.file_exists("user://savegame.json"):
+		var file = FileAccess.open("user://savegame.json", FileAccess.WRITE)
+		if file:
+			file.store_string(JSON.stringify(GlobalData.save))
+			file.close()
+	var file = FileAccess.open("user://savegame.json", FileAccess.READ);
+	var contents = file.get_as_text()
+	file.close()
+	GlobalData.save = JSON.parse_string(contents)

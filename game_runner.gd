@@ -63,7 +63,7 @@ func load_game(level, level_string = "empty"):
 	song_start_time = get_time();
 
 	current_level = level_string
-	scroll_speed = GlobalData.scroll_speed
+	scroll_speed = GlobalData.save["scroll_speed"]
 
 	if level_editing == false:
 		var file := FileAccess.open(level, FileAccess.READ)
@@ -411,7 +411,7 @@ func handle_end_of_song():
 	var rank = accuracy_to_rank(percentage_accuracy)
 	print("Your percentage accuracy is " + str(percentage_accuracy))
 	if rank == AccuracyRank.P:
-		print("NICE! You got a P rank!")
+		print("AWESOME! You got a P rank!")
 	elif rank == AccuracyRank.S:
 		print("Sick! You got an S rank!")
 	elif rank == AccuracyRank.A:
@@ -424,34 +424,51 @@ func handle_end_of_song():
 		print("You're a bit off. You got a D rank.")
 
 	if current_level == "1_1":
-		GlobalData.rank_1_1 = rank
+		if GlobalData.save["rank_1_1"] > rank:
+			GlobalData.save["rank_1_1"] = rank
 	elif current_level == "1_2":
-		GlobalData.rank_1_2 = rank
+		if GlobalData.save["rank_1_2"] > rank:
+			GlobalData.save["rank_1_2"] = rank
 	elif current_level == "1_3":
-		GlobalData.rank_1_3 = rank
+		if GlobalData.save["rank_1_3"] > rank:
+			GlobalData.save["rank_1_3"] = rank
 	elif current_level == "1_4":
-		GlobalData.rank_1_4 = rank
+		if GlobalData.save["rank_1_4"] > rank:
+			GlobalData.save["rank_1_4"] = rank
 
 	if current_level == "2_1":
-		GlobalData.rank_2_1 = rank
+		if GlobalData.save["rank_2_1"] > rank:
+			GlobalData.save["rank_2_1"] = rank
 	elif current_level == "2_2":
-		GlobalData.rank_2_2 = rank
+		if GlobalData.save["rank_2_2"] > rank:
+			GlobalData.save["rank_2_2"] = rank
 	elif current_level == "2_3":
-		GlobalData.rank_2_3 = rank
+		if GlobalData.save["rank_2_3"] > rank:
+			GlobalData.save["rank_2_3"] = rank
 	elif current_level == "2_4":
-		GlobalData.rank_2_4 = rank
+		if GlobalData.save["rank_2_4"] > rank:
+			GlobalData.save["rank_2_4"] = rank
 
 	if current_level == "3_1":
-		GlobalData.rank_3_1 = rank
+		if GlobalData.save["rank_3_1"] > rank:
+			GlobalData.save["rank_3_1"] = rank
 	elif current_level == "3_2":
-		GlobalData.rank_3_2 = rank
+		if GlobalData.save["rank_3_2"] > rank:
+			GlobalData.save["rank_3_2"] = rank
 	elif current_level == "3_3":
-		GlobalData.rank_3_3 = rank
+		if GlobalData.save["rank_3_3"] > rank:
+			GlobalData.save["rank_3_3"] = rank
 	elif current_level == "3_4":
-		GlobalData.rank_3_4 = rank
+		if GlobalData.save["rank_3_4"] > rank:
+			GlobalData.save["rank_3_4"] = rank
 
 	GlobalData.latest_rank = rank
 	GlobalData.latest_accuracy = percentage_accuracy
+
+	var file = FileAccess.open("user://savegame.json", FileAccess.WRITE)
+	if file:
+		file.store_string(JSON.stringify(GlobalData.save))
+		file.close()
 
 	get_tree().change_scene_to_file("res://game_end.tscn")
 

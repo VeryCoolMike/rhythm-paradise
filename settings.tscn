@@ -1,9 +1,10 @@
-[gd_scene load_steps=9 format=3 uid="uid://etj4cn6t2mcw"]
+[gd_scene load_steps=10 format=3 uid="uid://etj4cn6t2mcw"]
 
 [ext_resource type="Script" uid="uid://y01wdyqwopwi" path="res://settings_page.gd" id="1_nkug2"]
 [ext_resource type="Shader" uid="uid://cgn6u8fenp5dq" path="res://background.gdshader" id="2_3lj6o"]
 [ext_resource type="FontFile" uid="uid://bid8jxa12q31g" path="res://BitcountPropSingle-VariableFont_CRSV,ELSH,ELXP,slnt,wght.ttf" id="3_6mhpt"]
 [ext_resource type="Script" uid="uid://bvijampkhehi4" path="res://apply_settings.gd" id="4_gc0em"]
+[ext_resource type="Script" uid="uid://bwxomihxf6vol" path="res://delete_save.gd" id="5_cj1lu"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_evhv5"]
 shader = ExtResource("2_3lj6o")
@@ -70,6 +71,16 @@ theme_override_font_sizes/font_size = 55
 text = "APPLY"
 script = ExtResource("4_gc0em")
 
+[node name="Button2" type="Button" parent="."]
+offset_top = 256.0
+offset_right = 1152.0
+offset_bottom = 356.0
+theme = SubResource("Theme_cj1lu")
+theme_override_fonts/font = ExtResource("3_6mhpt")
+theme_override_font_sizes/font_size = 55
+text = "DELETE SAVE FILE"
+script = ExtResource("5_cj1lu")
+
 [node name="scroll_speed" type="TextEdit" parent="."]
 offset_left = 272.0
 offset_top = 136.0
@@ -77,7 +88,7 @@ offset_right = 516.0
 offset_bottom = 237.0
 theme_override_fonts/font = ExtResource("3_6mhpt")
 theme_override_font_sizes/font_size = 80
-text = "600"
+text = "800"
 
 [node name="Label" type="Label" parent="."]
 offset_left = 548.0
@@ -91,3 +102,6 @@ text = "SCROLL SPEED"
 [connection signal="focus_entered" from="Button" to="Button" method="_on_focus_entered"]
 [connection signal="focus_exited" from="Button" to="Button" method="_on_focus_exited"]
 [connection signal="pressed" from="Button" to="Button" method="_on_pressed"]
+[connection signal="focus_entered" from="Button2" to="Button2" method="_on_focus_entered"]
+[connection signal="focus_exited" from="Button2" to="Button2" method="_on_focus_exited"]
+[connection signal="pressed" from="Button2" to="Button2" method="_on_pressed"]
