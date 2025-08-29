@@ -141,6 +141,8 @@ func create_note(time: float, lane: int, is_hold: bool = false, hold_length: flo
 		note_instance.position.x = 415 + 280
 		note_instance.get_node("Panel").add_theme_stylebox_override("panel", lane_4_style)
 		note_instance.get_node("Hold_Bar").add_theme_stylebox_override("panel", lane_4_style)
+
+	note_instance.position.y = -100
 	note_instances.append(note_instance)
 	add_child(note_instance)
 			
@@ -219,6 +221,8 @@ func increase_score(accuracy: Accuracy):
 
 func update_notes():
 	for index in range(notes.size()):
+		if abs(notes[index]["time"] - get_real_time()) > 5:
+			continue
 		var note_instance = note_instances[index]
 		var note = notes[index]
 		if note and note_instance:
@@ -436,6 +440,15 @@ func handle_end_of_song():
 		GlobalData.rank_2_3 = rank
 	elif current_level == "2_4":
 		GlobalData.rank_2_4 = rank
+
+	if current_level == "3_1":
+		GlobalData.rank_3_1 = rank
+	elif current_level == "3_2":
+		GlobalData.rank_3_2 = rank
+	elif current_level == "3_3":
+		GlobalData.rank_3_3 = rank
+	elif current_level == "3_4":
+		GlobalData.rank_3_4 = rank
 
 	GlobalData.latest_rank = rank
 	GlobalData.latest_accuracy = percentage_accuracy

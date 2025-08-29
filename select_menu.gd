@@ -13,6 +13,11 @@ func secret_unlocked_check(layer) -> bool:
 			return true
 		else:
 			return false
+	elif layer == 3:
+		if GlobalData.rank_3_1 == 0 and GlobalData.rank_3_2 == 0 and GlobalData.rank_3_3 == 0:
+			return true
+		else:
+			return false
 	else:
 		return false
 
@@ -20,9 +25,15 @@ func refresh_visible() -> void:
 	if current_layer == 1:
 		$ColorRect/layer_1.visible = true
 		$ColorRect/layer_2.visible = false
-	else:
+		$ColorRect/layer_3.visible = false
+	elif current_layer == 2:
 		$ColorRect/layer_1.visible = false
 		$ColorRect/layer_2.visible = true
+		$ColorRect/layer_3.visible = false
+	elif current_layer == 3:
+		$ColorRect/layer_1.visible = false
+		$ColorRect/layer_2.visible = false
+		$ColorRect/layer_3.visible = true
 
 func accuracy_to_rank(accuracy: int) -> String:
 	match accuracy:
@@ -57,9 +68,14 @@ func _ready() -> void:
 	$ColorRect/layer_2/level_3.text = "LEVEL 3 " + accuracy_to_rank(GlobalData.rank_2_3)
 	$ColorRect/layer_2/level_4.text = "SECRET LEVEL " + accuracy_to_rank(GlobalData.rank_2_4)
 
+	$ColorRect/layer_3/level_1.text = "LEVEL 1 " + accuracy_to_rank(GlobalData.rank_3_1)
+	$ColorRect/layer_3/level_2.text = "LEVEL 2 " + accuracy_to_rank(GlobalData.rank_3_2)
+	#$ColorRect/layer_3/level_3.text = "LEVEL 3 " + accuracy_to_rank(GlobalData.rank_3_3)
+	#$ColorRect/layer_3/level_4.text = "SECRET LEVEL " + accuracy_to_rank(GlobalData.rank_3_4)
+
 
 func _on_forward_pressed() -> void:
-	if current_layer < 2: # The amount of layers
+	if current_layer < 3: # The amount of layers
 		current_layer += 1
 		refresh_visible()
 

@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=3 uid="uid://bxaesx3w5sium"]
+[gd_scene load_steps=19 format=3 uid="uid://bxaesx3w5sium"]
 
 [ext_resource type="Script" uid="uid://1c3pcp1ug610" path="res://select_menu.gd" id="1_evers"]
 [ext_resource type="Shader" uid="uid://cgn6u8fenp5dq" path="res://background.gdshader" id="2_whi60"]
@@ -12,6 +12,8 @@
 [ext_resource type="PackedScene" uid="uid://bq8w5wmuusgoh" path="res://levels/layer_2/level_2/level_2.tscn" id="10_oye6m"]
 [ext_resource type="PackedScene" uid="uid://dbct0kwudcgts" path="res://levels/layer_2/level_3/level_3.tscn" id="11_pj2nt"]
 [ext_resource type="PackedScene" uid="uid://d1n64vu4jwa4p" path="res://levels/layer_2/level_4/secret_level.tscn" id="12_8ecnm"]
+[ext_resource type="PackedScene" uid="uid://dvq4r70voqxlx" path="res://levels/layer_3/level_1/level_1.tscn" id="13_te5qo"]
+[ext_resource type="PackedScene" uid="uid://428olrqx45v2" path="res://levels/layer_3/level_2/level_2.tscn" id="14_aqo4r"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_evhv5"]
 shader = ExtResource("2_whi60")
@@ -201,6 +203,72 @@ theme_override_font_sizes/font_size = 100
 text = "-- Layer 2--"
 horizontal_alignment = 1
 
+[node name="layer_3" type="ColorRect" parent="ColorRect"]
+visible = false
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 648.0
+color = Color(1, 1, 1, 0)
+
+[node name="level_1" type="Button" parent="ColorRect/layer_3"]
+layout_mode = 2
+offset_top = 200.0
+offset_right = 1152.0
+offset_bottom = 271.0
+theme = SubResource("Theme_sgdki")
+theme_override_fonts/font = ExtResource("3_foyel")
+theme_override_font_sizes/font_size = 55
+text = "LEVEL 1 [-]"
+script = ExtResource("3_spsnn")
+scene = ExtResource("13_te5qo")
+
+[node name="level_2" type="Button" parent="ColorRect/layer_3"]
+layout_mode = 2
+offset_top = 271.0
+offset_right = 1152.0
+offset_bottom = 342.0
+theme = SubResource("Theme_sgdki")
+theme_override_fonts/font = ExtResource("3_foyel")
+theme_override_font_sizes/font_size = 55
+text = "LEVEL 2 [-]"
+script = ExtResource("3_spsnn")
+scene = ExtResource("14_aqo4r")
+
+[node name="level_3" type="Button" parent="ColorRect/layer_3"]
+layout_mode = 2
+offset_top = 342.0
+offset_right = 1152.0
+offset_bottom = 413.0
+theme = SubResource("Theme_sgdki")
+theme_override_fonts/font = ExtResource("3_foyel")
+theme_override_font_sizes/font_size = 55
+text = "UNDER CONSTRUCTION"
+script = ExtResource("3_spsnn")
+
+[node name="level_4" type="Button" parent="ColorRect/layer_3"]
+layout_mode = 2
+offset_left = -1.0
+offset_top = 413.0
+offset_right = 1151.0
+offset_bottom = 484.0
+theme = SubResource("Theme_sgdki")
+theme_override_fonts/font = ExtResource("3_foyel")
+theme_override_font_sizes/font_size = 55
+text = "UNDER CONSTRUCTION"
+script = ExtResource("3_spsnn")
+secret_level = "3"
+
+[node name="Label2" type="Label" parent="ColorRect/layer_3"]
+layout_mode = 2
+offset_top = 54.0
+offset_right = 1152.0
+offset_bottom = 174.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_foyel")
+theme_override_font_sizes/font_size = 100
+text = "-- Layer 3--"
+horizontal_alignment = 1
+
 [node name="back" type="Button" parent="ColorRect"]
 layout_mode = 2
 offset_top = 577.0
@@ -246,6 +314,18 @@ text = ">"
 [connection signal="focus_entered" from="ColorRect/layer_2/level_4" to="ColorRect/layer_2/level_4" method="_on_focus_entered"]
 [connection signal="focus_exited" from="ColorRect/layer_2/level_4" to="ColorRect/layer_2/level_4" method="_on_focus_exited"]
 [connection signal="pressed" from="ColorRect/layer_2/level_4" to="ColorRect/layer_2/level_4" method="_on_pressed"]
+[connection signal="focus_entered" from="ColorRect/layer_3/level_1" to="ColorRect/layer_3/level_1" method="_on_focus_entered"]
+[connection signal="focus_exited" from="ColorRect/layer_3/level_1" to="ColorRect/layer_3/level_1" method="_on_focus_exited"]
+[connection signal="pressed" from="ColorRect/layer_3/level_1" to="ColorRect/layer_3/level_1" method="_on_pressed"]
+[connection signal="focus_entered" from="ColorRect/layer_3/level_2" to="ColorRect/layer_3/level_2" method="_on_focus_entered"]
+[connection signal="focus_exited" from="ColorRect/layer_3/level_2" to="ColorRect/layer_3/level_2" method="_on_focus_exited"]
+[connection signal="pressed" from="ColorRect/layer_3/level_2" to="ColorRect/layer_3/level_2" method="_on_pressed"]
+[connection signal="focus_entered" from="ColorRect/layer_3/level_3" to="ColorRect/layer_3/level_3" method="_on_focus_entered"]
+[connection signal="focus_exited" from="ColorRect/layer_3/level_3" to="ColorRect/layer_3/level_3" method="_on_focus_exited"]
+[connection signal="pressed" from="ColorRect/layer_3/level_3" to="ColorRect/layer_3/level_3" method="_on_pressed"]
+[connection signal="focus_entered" from="ColorRect/layer_3/level_4" to="ColorRect/layer_3/level_4" method="_on_focus_entered"]
+[connection signal="focus_exited" from="ColorRect/layer_3/level_4" to="ColorRect/layer_3/level_4" method="_on_focus_exited"]
+[connection signal="pressed" from="ColorRect/layer_3/level_4" to="ColorRect/layer_3/level_4" method="_on_pressed"]
 [connection signal="focus_entered" from="ColorRect/back" to="ColorRect/back" method="_on_focus_entered"]
 [connection signal="focus_exited" from="ColorRect/back" to="ColorRect/back" method="_on_focus_exited"]
 [connection signal="pressed" from="ColorRect/back" to="." method="_on_back_pressed"]

@@ -1,6 +1,7 @@
-[gd_scene load_steps=10 format=3 uid="uid://qpajl06aai4m"]
+[gd_scene load_steps=11 format=3 uid="uid://qpajl06aai4m"]
 
 [ext_resource type="Script" uid="uid://wvu8wx00satt" path="res://button.gd" id="1_06t4h"]
+[ext_resource type="Script" uid="uid://ca3hft1u13job" path="res://main_menu.gd" id="1_glbon"]
 [ext_resource type="Shader" uid="uid://cgn6u8fenp5dq" path="res://background.gdshader" id="1_jix8l"]
 [ext_resource type="FontFile" uid="uid://bid8jxa12q31g" path="res://BitcountPropSingle-VariableFont_CRSV,ELSH,ELXP,slnt,wght.ttf" id="2_7vrkn"]
 [ext_resource type="Script" uid="uid://dpnj3oels2awm" path="res://settings.gd" id="4_glbon"]
@@ -57,6 +58,7 @@ font_size = 60
 shadow_color = Color(0.495509, 0.495509, 0.495509, 1)
 
 [node name="Node2D" type="Node2D"]
+script = ExtResource("1_glbon")
 
 [node name="ColorRect2" type="ColorRect" parent="."]
 material = SubResource("ShaderMaterial_nlkkf")
