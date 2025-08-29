@@ -54,9 +54,11 @@ func accuracy_to_rank(accuracy: int) -> String:
 
 func _ready() -> void:
 	if secret_unlocked_check(1):
-		GlobalData.unlocked_1 = true
+		GlobalData.save["unlocked_1"] = true
 	if secret_unlocked_check(2):
-		GlobalData.unlocked_2 = true
+		GlobalData.save["unlocked_2"] = true
+	if secret_unlocked_check(3):
+		GlobalData.save["unlocked_3"] = true
 	
 	$ColorRect/layer_1/level_1.text = "LEVEL 1 " + accuracy_to_rank(GlobalData.save["rank_1_1"])
 	$ColorRect/layer_1/level_2.text = "LEVEL 2 " + accuracy_to_rank(GlobalData.save["rank_1_2"])
