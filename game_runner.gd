@@ -11,7 +11,7 @@ var current_level = ""
 var json_file: String = ""
 var level_name: String = "empty"
 
-var level_editing = false
+var level_editing = true
 
 var note_scene = load("res://note.tscn")
 var lane_1_style = load("res://lane_1.tres")

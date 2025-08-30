@@ -4,6 +4,9 @@ extends Button
 @export var secret_level: String = ""
 
 func _on_pressed() -> void:
+	if GlobalData.cheat == true:
+		get_tree().change_scene_to_packed(scene)
+		return
 	if secret_level == "1" and GlobalData.save["unlocked_1"] == false:
 		return
 	if secret_level == "2" and GlobalData.save["unlocked_2"] == false:

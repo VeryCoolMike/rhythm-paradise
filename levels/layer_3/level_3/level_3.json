@@ -1,0 +1,6038 @@
+{
+	"notes": [
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 2.066
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 2.5
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 2.966
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 3.449
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 4.232
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 4.451
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 5.065
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 5.248
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 5.515
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 5.948
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 6.082
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 6.349
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 6.616
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 6.966
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 7.115
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 7.582
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 8.016
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 8.483
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 8.967
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 5.217,
+			"is_hold": true,
+			"lane": 1,
+			"time": 3.915
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 9.449
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 9.917
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 10.366
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 10.85
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 11.217
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 11.583
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 11.667
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 12.05
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 12.517
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 12.65
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 13.017
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 13.484
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 13.683
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 13.901
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 14.167
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 14.349
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 14.501
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 14.933
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 15.384
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 15.833
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 16.285
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 16.733
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 17.167
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 17.685
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 18.085
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 18.568
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 18.9
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 19.099
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 19.283
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 19.699
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 19.867
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 20.132
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 20.598
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 20.765
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 20.983
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 21.416
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 21.567
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 21.749
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 22.232
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 22.668
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 23.133
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 23.585
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 1.335,
+			"is_hold": true,
+			"lane": 1,
+			"time": 24.084
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 25.9
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 26.35
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 26.817
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 27.251
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 27.7
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 28.15
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 28.604
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 29.017
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 29.518
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 29.933
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 30.435
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 30.917
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 31.368
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 31.817
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 32.301
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 32.734
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 33.168
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 33.468
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 33.651
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 34.051
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 34.501
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 34.667
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 34.934
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 35.334
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 35.468
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 35.667
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 35.902
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 36.2
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 36.401
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 36.584
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 36.851
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 37.3
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 37.8
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 38.169
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 38.7
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 39.117
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 39.633
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 40.085
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 40.535
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 40.867
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 41.033
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 41.318
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 41.685
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 41.851
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 42.101
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 42.567
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 42.751
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 43.001
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 43.216
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 43.618
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 43.884
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 44.618
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 45.118
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 45.585
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 46.052
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 46.469
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 46.968
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 47.418
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 3.485,
+			"is_hold": true,
+			"lane": 4,
+			"time": 44.2
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 47.868
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 48.001
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 48.268
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 48.385
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 48.718
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 48.834
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 49.169
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 49.268
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 49.634
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 49.757
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 50.085
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 50.184
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 50.518
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 50.635
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 50.935
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 51.068
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 51.485
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 51.985
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 52.452
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 52.901
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 53.818
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 54.269
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 54.771
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 1.617,
+			"is_hold": true,
+			"lane": 1,
+			"time": 53.335
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 55.235
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 55.569
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 55.718
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 56.035
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 56.201
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 56.469
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 56.634
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 56.868
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 57.101
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 57.402
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 57.535
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 57.851
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 58.018
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 58.286
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 58.472
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 58.752
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 58.951
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 59.402
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 59.817
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 60.135
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 60.251
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 60.735
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 61.071
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 61.201
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 61.502
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 61.67
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 61.973
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 62.169
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 62.518
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 62.869
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 63.018
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 63.335
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 63.452
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 63.785
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 63.952
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 64.335
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 64.653
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 64.801
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 64.952
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 65.185
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 65.403
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 65.652
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 65.769
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 66.218
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 67.102
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 67.569
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 68.035
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 68.984
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 69.437
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 1.20100000000001,
+			"is_hold": true,
+			"lane": 2,
+			"time": 68.501
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 3.083,
+			"is_hold": true,
+			"lane": 4,
+			"time": 66.669
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 69.885
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 70.169
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 70.302
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 70.619
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 71.018
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 71.185
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 71.352
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 71.602
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 71.902
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 72.053
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 72.171
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 72.37
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 72.819
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 73.386
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 73.902
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 74.419
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 74.886
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 75.302
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 75.786
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 76.235
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 76.702
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 77.437
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 77.571
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 77.753
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 77.952
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 78.252
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 78.403
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 78.602
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 78.819
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 79.053
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 79.252
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 79.486
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 79.719
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 2.751,
+			"is_hold": true,
+			"lane": 1,
+			"time": 77.135
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 80.052
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 80.253
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 80.37
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 80.519
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 80.719
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 81.002
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 81.135
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 81.269
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 81.437
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 81.652
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 81.835
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 82.019
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 82.186
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 82.352
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 82.519
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 82.67
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 82.853
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 83.008
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 83.153
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 83.269
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 83.521
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 83.636
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 83.786
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 83.902
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 84.036
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 84.119
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 84.486
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 84.969
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 85.419
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 85.892
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 86.736
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 87.169
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 87.636
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 88.102
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 88.602
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 89.035
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 89.537
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 90.003
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 90.436
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 90.936
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 5.252,
+			"is_hold": true,
+			"lane": 1,
+			"time": 86.318
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 92.303
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 92.736
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 93.203
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 93.688
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 94.153
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 94.602
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 95.07
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 95.487
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 95.936
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 96.387
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 96.836
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 97.319
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 97.736
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 98.202
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 98.654
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 7.166,
+			"is_hold": true,
+			"lane": 4,
+			"time": 91.853
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 99.64
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 100.053
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 100.471
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 100.97
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 101.203
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 101.469
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 101.802
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 102.019
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 102.287
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 102.521
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 102.72
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 3.649,
+			"is_hold": true,
+			"lane": 2,
+			"time": 99.203
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 103.003
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 103.253
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 103.554
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 103.787
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 104.119
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 104.375
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 104.703
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 104.986
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 105.253
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 105.571
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 105.836
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 106.102
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 106.387
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 106.604
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 107.438
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 107.903
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 108.387
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 108.619
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 108.886
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 109.085
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 109.369
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 109.57
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 109.769
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 2.95,
+			"is_hold": true,
+			"lane": 2,
+			"time": 107.002
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 110.152
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 110.437
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 110.771
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 111.07
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 111.403
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 111.686
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 111.987
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 112.202
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 112.555
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 112.753
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 112.986
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 113.236
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 113.455
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 114.271
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 114.771
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 115.171
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 115.655
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 115.988
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 116.204
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 116.472
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 116.669
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 116.87
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 117.038
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 3.38499999999999,
+			"is_hold": true,
+			"lane": 4,
+			"time": 113.836
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 117.454
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 117.587
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 117.737
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 117.955
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 118.171
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 118.354
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 118.555
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 118.754
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 118.937
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 119.186
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 119.356
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 119.539
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 119.721
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 119.971
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 120.09
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 120.27
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 120.471
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 120.72
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 120.871
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 121.571
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 122.055
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 123.055
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 123.509
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 123.986
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 124.403
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 1.967,
+			"is_hold": true,
+			"lane": 2,
+			"time": 122.571
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 3.452,
+			"is_hold": true,
+			"lane": 4,
+			"time": 121.103
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 124.82
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 124.936
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 125.237
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 125.353
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 125.636
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 125.788
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 126.071
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 126.171
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 126.487
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 126.62
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 126.92
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 127.036
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 127.32
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 127.488
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 127.837
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 127.956
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 128.287
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 128.488
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 128.771
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 128.955
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 129.237
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 129.387
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 129.704
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 129.804
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 130.287
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 130.421
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 130.671
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 130.804
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 131.071
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 131.204
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 131.637
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 132.071
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 132.404
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 132.605
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 132.887
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 133.071
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 133.422
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 133.522
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 133.937
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 134.255
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 134.422
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 134.72
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 134.887
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 135.171
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 135.271
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 135.771
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 136.255
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 136.687
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 137.171
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 137.605
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 138.087
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 138.521
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 139.02
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 139.721
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 139.871
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 140.137
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 140.487
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 140.72
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 140.87
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 141.137
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 141.455
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 141.671
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 141.837
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 142.037
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 2.733,
+			"is_hold": true,
+			"lane": 4,
+			"time": 139.438
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 142.523
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 142.99
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 143.937
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 144.462
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 146.254
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 3.048,
+			"is_hold": true,
+			"lane": 2,
+			"time": 143.508
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 1.119,
+			"is_hold": true,
+			"lane": 3,
+			"time": 145.438
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 1.65400000000002,
+			"is_hold": true,
+			"lane": 4,
+			"time": 144.904
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 146.737
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 147.004
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 147.187
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 147.505
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 147.804
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 147.955
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 148.121
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 148.337
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 148.539
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 148.755
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 148.972
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 149.121
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 149.472
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 149.622
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 149.888
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 150.004
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 150.161
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 150.388
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 150.539
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 150.688
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 150.857
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 150.972
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 151.138
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 151.522
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 151.687
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 151.821
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 151.955
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 152.121
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 152.337
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 152.523
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 152.656
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 152.856
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 153.388
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 153.572
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 153.688
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 154.072
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 154.571
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 155.021
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 155.471
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 2.76499999999999,
+			"is_hold": true,
+			"lane": 4,
+			"time": 153.121
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 155.936
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 156.353
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 156.82
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 157.203
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 157.62
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 157.803
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 157.937
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 158.156
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 158.407
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 158.603
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 158.756
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 158.987
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 159.159
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 159.356
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 159.542
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 159.72
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 159.904
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 160.12
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 160.371
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 160.557
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 160.771
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 160.908
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 161.072
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 161.273
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 161.437
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 161.671
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 161.887
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 162.087
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 162.287
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 162.438
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 162.605
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 162.82
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 162.987
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 163.205
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 163.355
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 163.571
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 163.704
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 163.887
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 164.086
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 164.271
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 164.456
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 164.987
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 165.171
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 165.421
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 165.588
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 165.82
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 166.02
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 166.205
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 166.439
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 166.637
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 166.821
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 167.038
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 167.205
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 167.389
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 167.606
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 167.755
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 167.938
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 168.157
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 3.58500000000001,
+			"is_hold": true,
+			"lane": 4,
+			"time": 164.737
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 168.361
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 168.522
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 168.721
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 168.888
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 169.106
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 169.257
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 169.439
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 169.589
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 169.821
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 170.007
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 170.205
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 170.425
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 170.674
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 170.874
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 171.123
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 171.259
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 171.506
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 171.958
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 172.389
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 172.822
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 173.272
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 173.706
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 174.156
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 174.638
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 175.222
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 175.439
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 175.607
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 175.905
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 176.187
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 176.356
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 176.489
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 176.655
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 177.055
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 177.256
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 177.405
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 177.555
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 177.704
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 177.872
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 178.037
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 178.157
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 178.304
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 178.539
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 3.60399999999998,
+			"is_hold": true,
+			"lane": 4,
+			"time": 175.056
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 178.988
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 179.456
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 179.859
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 180.322
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 180.806
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 181.257
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 181.705
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 182.321
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 182.458
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 182.657
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 182.821
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 182.972
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 183.121
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 183.288
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 183.522
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 183.656
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 183.837
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 183.921
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 184.122
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 184.287
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 2.48400000000001,
+			"is_hold": true,
+			"lane": 3,
+			"time": 182.089
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 184.457
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 184.688
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 184.821
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 184.958
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 185.087
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 185.237
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 185.405
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 185.539
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 185.688
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 185.788
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 186.088
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 186.204
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 186.321
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 186.404
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 186.544
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 186.656
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 186.821
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 187.055
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 187.205
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 187.304
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 187.423
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 187.571
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 187.721
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 187.938
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 188.038
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 188.156
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 188.337
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 188.558
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 188.872
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 189.204
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 189.473
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 189.589
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 189.805
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 189.956
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 190.105
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 190.289
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 190.457
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 190.589
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 190.722
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 190.857
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 190.99
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 191.105
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 191.289
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 191.49
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 191.639
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 191.756
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 191.873
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 192.205
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 192.34
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 192.457
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 192.639
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 192.757
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 192.839
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 1.09900000000002,
+			"is_hold": true,
+			"lane": 4,
+			"time": 192.023
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 193.022
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 193.289
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 193.423
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 193.541
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 193.69
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 193.857
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 193.973
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 194.105
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 194.257
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 194.422
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 194.573
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 194.722
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 194.857
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 194.973
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 195.157
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 195.289
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 195.406
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 195.541
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 195.689
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 195.857
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 196.005
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 196.139
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 196.289
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 196.473
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 196.839
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 196.94
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 197.105
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 197.257
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 197.411
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 197.524
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 197.74
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 1.16799999999998,
+			"is_hold": true,
+			"lane": 3,
+			"time": 196.706
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 197.958
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 198.106
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 198.273
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 198.44
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 198.572
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 198.772
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 198.939
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 199.057
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 199.173
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 199.322
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 199.49
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 199.622
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 199.739
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 199.873
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 200.007
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 200.172
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 200.322
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 200.507
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 200.723
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 200.857
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 200.989
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 201.123
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 201.289
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 201.423
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 201.557
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 201.706
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 201.84
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 202.006
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 202.106
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 202.289
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 202.489
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 202.639
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 202.822
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 203.006
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 203.306
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 203.591
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 203.74
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 203.922
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 204.473
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 204.608
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 204.873
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 205.157
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 205.589
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 205.773
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 205.99
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 2.268,
+			"is_hold": true,
+			"lane": 2,
+			"time": 204.106
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 206.606
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 207.039
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 207.525
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 207.957
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 208.323
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 208.857
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 3,
+			"time": 209.238
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 4,
+			"time": 209.673
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 210.106
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 1,
+			"time": 210.524
+		},
+		{
+			"being_held": false,
+			"dead": false,
+			"hold_length": 0.0,
+			"is_hold": false,
+			"lane": 2,
+			"time": 210.957
+		}
+	],
+	"song_end_time": 212,
+	"song_name": "Misery Fell"
+}

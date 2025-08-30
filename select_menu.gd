@@ -72,8 +72,8 @@ func _ready() -> void:
 
 	$ColorRect/layer_3/level_1.text = "LEVEL 1 " + accuracy_to_rank(GlobalData.save["rank_3_1"])
 	$ColorRect/layer_3/level_2.text = "LEVEL 2 " + accuracy_to_rank(GlobalData.save["rank_3_2"])
-	#$ColorRect/layer_3/level_3.text = "LEVEL 3 " + accuracy_to_rank(GlobalData.rank_3_3)
-	#$ColorRect/layer_3/level_4.text = "SECRET LEVEL " + accuracy_to_rank(GlobalData.rank_3_4)
+	$ColorRect/layer_3/level_3.text = "LEVEL 3 " + accuracy_to_rank(GlobalData.save["rank_3_3"])
+	$ColorRect/layer_3/level_4.text = "SECRET LEVEL " + accuracy_to_rank(GlobalData.save["rank_3_4"])
 
 
 func _on_forward_pressed() -> void:

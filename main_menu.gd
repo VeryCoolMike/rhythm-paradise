@@ -11,6 +11,12 @@ var konami_code = [
 var current_index = 0
 var waiting_for_number = false  # Flag to indicate next key should be a number
 
+var secret_code = [
+	KEY_L, KEY_O, KEY_L
+]
+
+var current_index_2 = 0
+
 func _unhandled_input(event: InputEvent) -> void:
 	if event is InputEventKey and event.pressed and not event.echo:
 		if waiting_for_number:
@@ -28,6 +34,15 @@ func _unhandled_input(event: InputEvent) -> void:
 				current_index = 0
 		else:
 			current_index = 0
+	
+	if event is InputEventKey and event.pressed and not event.echo:
+		if event.keycode == secret_code[current_index_2]:
+			current_index_2 += 1
+			if current_index_2 == secret_code.size():
+				_on_secret_code()
+				current_index_2 = 0
+		else:
+			current_index_2 = 0
 
 # Convert keycode to number (0-9) if possible
 func _key_to_number(keycode: int) -> int:
@@ -50,6 +65,11 @@ func _on_konami_code(num: int) -> void:
 		get_tree().change_scene_to_file("res://levels/secret_level/secret_level.tscn")
 	elif num == 2:
 		get_tree().change_scene_to_file("res://levels/secret_level_2/secret_level.tscn")
+
+func _on_secret_code() -> void:
+	print("Secret activated!")
+	GlobalData.cheat = true
+
 
 
 func _ready() -> void:
