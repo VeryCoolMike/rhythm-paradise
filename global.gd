@@ -43,3 +43,8 @@ var original_save = {
 var cheat = false
 var latest_rank = -1
 var latest_accuracy = -1.00
+
+var level_editing = false
+
+var latest_json_raw
+var latest_song

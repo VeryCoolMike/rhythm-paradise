@@ -1,10 +1,13 @@
-[gd_scene load_steps=10 format=3 uid="uid://etj4cn6t2mcw"]
+[gd_scene load_steps=13 format=3 uid="uid://etj4cn6t2mcw"]
 
 [ext_resource type="Script" uid="uid://y01wdyqwopwi" path="res://settings_page.gd" id="1_nkug2"]
 [ext_resource type="Shader" uid="uid://cgn6u8fenp5dq" path="res://background.gdshader" id="2_3lj6o"]
 [ext_resource type="FontFile" uid="uid://bid8jxa12q31g" path="res://BitcountPropSingle-VariableFont_CRSV,ELSH,ELXP,slnt,wght.ttf" id="3_6mhpt"]
 [ext_resource type="Script" uid="uid://bvijampkhehi4" path="res://apply_settings.gd" id="4_gc0em"]
 [ext_resource type="Script" uid="uid://bwxomihxf6vol" path="res://delete_save.gd" id="5_cj1lu"]
+[ext_resource type="Script" uid="uid://di5vqj1j0evss" path="res://upload_level.gd" id="6_71mqq"]
+[ext_resource type="Script" uid="uid://dbj32xpqn8um1" path="res://enter_editing_level.gd" id="7_3j6r5"]
+[ext_resource type="Script" uid="uid://bat4y6fsf5524" path="res://open_save_folder.gd" id="8_3lj6o"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_evhv5"]
 shader = ExtResource("2_3lj6o")
@@ -62,9 +65,9 @@ offset_bottom = 648.0
 
 [node name="Button" type="Button" parent="."]
 offset_left = 412.0
-offset_top = 500.0
+offset_top = 550.0
 offset_right = 712.0
-offset_bottom = 600.0
+offset_bottom = 621.0
 theme = SubResource("Theme_cj1lu")
 theme_override_fonts/font = ExtResource("3_6mhpt")
 theme_override_font_sizes/font_size = 55
@@ -74,12 +77,57 @@ script = ExtResource("4_gc0em")
 [node name="Button2" type="Button" parent="."]
 offset_top = 256.0
 offset_right = 1152.0
-offset_bottom = 356.0
+offset_bottom = 327.0
 theme = SubResource("Theme_cj1lu")
 theme_override_fonts/font = ExtResource("3_6mhpt")
 theme_override_font_sizes/font_size = 55
 text = "DELETE SAVE FILE"
 script = ExtResource("5_cj1lu")
+
+[node name="Button3" type="Button" parent="."]
+offset_top = 327.0
+offset_right = 1152.0
+offset_bottom = 398.0
+theme = SubResource("Theme_cj1lu")
+theme_override_fonts/font = ExtResource("3_6mhpt")
+theme_override_font_sizes/font_size = 55
+text = "UPLOAD CUSTOM LEVEL (BETA)"
+script = ExtResource("6_71mqq")
+
+[node name="FileDialog" type="FileDialog" parent="Button3"]
+title = "Open a File"
+ok_button_text = "Open"
+file_mode = 0
+access = 1
+use_native_dialog = true
+
+[node name="Button4" type="Button" parent="."]
+offset_top = 398.0
+offset_right = 1152.0
+offset_bottom = 469.0
+theme = SubResource("Theme_cj1lu")
+theme_override_fonts/font = ExtResource("3_6mhpt")
+theme_override_font_sizes/font_size = 55
+text = "ENTER EDITING LEVEL MODE"
+script = ExtResource("7_3j6r5")
+
+[node name="FileDialog" type="FileDialog" parent="Button4"]
+auto_translate_mode = 1
+title = "Open a File"
+ok_button_text = "Open"
+file_mode = 0
+access = 1
+use_native_dialog = true
+
+[node name="Button5" type="Button" parent="."]
+offset_top = 469.0
+offset_right = 1152.0
+offset_bottom = 540.0
+theme = SubResource("Theme_cj1lu")
+theme_override_fonts/font = ExtResource("3_6mhpt")
+theme_override_font_sizes/font_size = 55
+text = "OPEN SAVE FOLDER"
+script = ExtResource("8_3lj6o")
 
 [node name="scroll_speed" type="TextEdit" parent="."]
 offset_left = 272.0
@@ -105,3 +153,14 @@ text = "SCROLL SPEED"
 [connection signal="focus_entered" from="Button2" to="Button2" method="_on_focus_entered"]
 [connection signal="focus_exited" from="Button2" to="Button2" method="_on_focus_exited"]
 [connection signal="pressed" from="Button2" to="Button2" method="_on_pressed"]
+[connection signal="focus_entered" from="Button3" to="Button3" method="_on_focus_entered"]
+[connection signal="focus_exited" from="Button3" to="Button3" method="_on_focus_exited"]
+[connection signal="pressed" from="Button3" to="Button3" method="_on_pressed"]
+[connection signal="file_selected" from="Button3/FileDialog" to="Button3" method="_on_file_selected"]
+[connection signal="focus_entered" from="Button4" to="Button4" method="_on_focus_entered"]
+[connection signal="focus_exited" from="Button4" to="Button4" method="_on_focus_exited"]
+[connection signal="pressed" from="Button4" to="Button4" method="_on_pressed"]
+[connection signal="file_selected" from="Button4/FileDialog" to="Button4" method="_on_file_selected"]
+[connection signal="focus_entered" from="Button5" to="Button5" method="_on_focus_entered"]
+[connection signal="focus_exited" from="Button5" to="Button5" method="_on_focus_exited"]
+[connection signal="pressed" from="Button5" to="Button5" method="_on_pressed"]

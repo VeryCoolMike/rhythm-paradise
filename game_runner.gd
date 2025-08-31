@@ -11,8 +11,6 @@ var current_level = ""
 var json_file: String = ""
 var level_name: String = "empty"
 
-var level_editing = false
-
 var note_scene = load("res://note.tscn")
 var lane_1_style = load("res://lane_1.tres")
 var lane_2_style = load("res://lane_2.tres")
@@ -57,7 +55,7 @@ enum AccuracyRank {
 	D, # < 75.0
 }
 
-func load_game(level, level_string = "empty"):
+func load_game(level = "none", level_string = "empty", raw_json = "none"):
 	print(level)
 	print(level_string)
 	song_start_time = get_time();
@@ -65,25 +63,31 @@ func load_game(level, level_string = "empty"):
 	current_level = level_string
 	scroll_speed = GlobalData.save["scroll_speed"]
 
-	if level_editing == false:
-		var file := FileAccess.open(level, FileAccess.READ)
-		if file:
-			var json_text: String = file.get_as_text()
-			file.close()
+	if GlobalData.level_editing == false:
+		var json_text: String = ""
 
-			var parsed_data: Variant = JSON.parse_string(json_text)
-			if typeof(parsed_data) == TYPE_DICTIONARY:
-				var data: Dictionary = parsed_data
-				song_name = data["song_name"]
-				song_end_time = data["song_end_time"]
+		if level != "none":
+			var file := FileAccess.open(level, FileAccess.READ)
+			if file:
+				json_text = file.get_as_text()
+				file.close()
 
-				for note in data["notes"]:
-					var note_time = note["time"]
-					var note_lane = note["lane"]
-					var note_is_hold = note["is_hold"]
-					var note_hold_length = note["hold_length"]
+		else:
+			json_text = raw_json
 
-					create_note(note_time, note_lane, note_is_hold, note_hold_length)
+		var parsed_data: Variant = JSON.parse_string(json_text)
+		if typeof(parsed_data) == TYPE_DICTIONARY:
+			var data: Dictionary = parsed_data
+			song_name = data["song_name"]
+			song_end_time = data["song_end_time"]
+
+			for note in data["notes"]:
+				var note_time = note["time"]
+				var note_lane = note["lane"]
+				var note_is_hold = note["is_hold"]
+				var note_hold_length = note["hold_length"]
+
+				create_note(note_time, note_lane, note_is_hold, note_hold_length)
 		
 
 
@@ -309,7 +313,7 @@ func format_info() -> String:
 	return info_song_name + time_in_song + super_score + great_score + good_score + meh_score + bad_score + miss_score + extra
 
 func handle_start_lane(lane):
-	if level_editing == false:
+	if GlobalData.level_editing == false:
 		var accuracy = get_accuracy(lane)
 		var closest_note = get_closest_number(notes, get_real_time(), lane)
 		if notes[closest_note].is_hold == false:
@@ -322,7 +326,7 @@ func handle_start_lane(lane):
 
 
 func handle_end_lane(lane):
-	if level_editing == false:
+	if GlobalData.level_editing == false:
 		for note in active_holds.duplicate():
 			if notes[note]["lane"] == lane:
 				var accuracy = get_accuracy_hold(lane)
@@ -361,13 +365,13 @@ func handle_input():
 		handle_end_lane(4)
 
 	if Input.is_action_just_pressed("menu"):
-		if level_editing == true:
+		if GlobalData.level_editing == true:
 			var save_data = {
 				"notes": notes,
 				"song_end_time": song_end_time,
 				"song_name": song_name,
 			}
-			var editing_file = FileAccess.open("temp_level.json", FileAccess.WRITE)
+			var editing_file = FileAccess.open("user://NEW-LEVEL/level.json", FileAccess.WRITE)
 			var string_data = JSON.stringify(save_data, "\t")
 			editing_file.store_string(string_data)
 			editing_file.close()
