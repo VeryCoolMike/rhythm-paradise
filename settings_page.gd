@@ -3,8 +3,10 @@ extends Node2D
 func _ready() -> void:
 	$scroll_speed.text = str(int(GlobalData.save["scroll_speed"]))
 	if OS.has_feature("web"):
+		$Button3.visible = false
 		$Button4.visible = false
 		$Button5.visible = false
+		$Button6.visible = true
 
 func _process(delta):
 	if Input.is_action_just_pressed("menu"):
