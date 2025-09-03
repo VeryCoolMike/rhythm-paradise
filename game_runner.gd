@@ -268,19 +268,34 @@ func handle_hit(note_index, accuracy):
 			
 			if accuracy == Accuracy.SUPER:
 				new_colour = Color(225, 52, 235)
-				particle_amount = 32768
+				if GlobalData.save["performance_mode"] == true:
+					particle_amount = 1024
+				else:
+					particle_amount = 32768
 			if accuracy == Accuracy.GREAT:
 				new_colour = Color(55, 235, 52)
-				particle_amount = 16384
+				if GlobalData.save["performance_mode"] == true:
+					particle_amount = 512
+				else:
+					particle_amount = 16384
 			if accuracy == Accuracy.GOOD:
 				new_colour = Color(110, 235, 52)
-				particle_amount = 8192
+				if GlobalData.save["performance_mode"] == true:
+					particle_amount = 256
+				else:
+					particle_amount = 8192
 			if accuracy == Accuracy.MEH:
 				new_colour = Color(235, 128, 52)
-				particle_amount = 4096
+				if GlobalData.save["performance_mode"] == true:
+					particle_amount = 128
+				else:
+					particle_amount = 4096
 			if accuracy == Accuracy.BAD:
 				new_colour = Color(235, 64, 52)
-				particle_amount = 2048
+				if GlobalData.save["performance_mode"] == true:
+					particle_amount = 64
+				else:
+					particle_amount = 2048
 			
 			new_colour = Color(new_colour.r/255.0, new_colour.g/255.0, new_colour.b/255.0)
 			

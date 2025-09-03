@@ -17,7 +17,8 @@ var save = {
     "rank_3_4" = 99,
     "unlocked_3" = false,
 
-    "scroll_speed" = 800
+    "scroll_speed" = 800,
+    "performance_mode" = false
 }
 
 var original_save = {
@@ -37,7 +38,8 @@ var original_save = {
     "rank_3_4" = 99,
     "unlocked_3" = false,
 
-    "scroll_speed" = 800
+    "scroll_speed" = 800,
+    "performance_mode" = false,
 }
 
 var cheat = false

@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=3 uid="uid://etj4cn6t2mcw"]
+[gd_scene load_steps=15 format=3 uid="uid://etj4cn6t2mcw"]
 
 [ext_resource type="Script" uid="uid://y01wdyqwopwi" path="res://settings_page.gd" id="1_nkug2"]
 [ext_resource type="Shader" uid="uid://cgn6u8fenp5dq" path="res://background.gdshader" id="2_3lj6o"]
@@ -9,6 +9,7 @@
 [ext_resource type="Script" uid="uid://dbj32xpqn8um1" path="res://enter_editing_level.gd" id="7_3j6r5"]
 [ext_resource type="Script" uid="uid://bat4y6fsf5524" path="res://open_save_folder.gd" id="8_3lj6o"]
 [ext_resource type="Script" uid="uid://broprr0y70cu7" path="res://download_game.gd" id="9_6mhpt"]
+[ext_resource type="Script" uid="uid://cds70527an31q" path="res://performance_mode.gd" id="10_ohexs"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_evhv5"]
 shader = ExtResource("2_3lj6o")
@@ -159,6 +160,16 @@ theme_override_fonts/font = ExtResource("3_6mhpt")
 theme_override_font_sizes/font_size = 60
 text = "SCROLL SPEED"
 
+[node name="CheckBox" type="CheckBox" parent="."]
+offset_top = 17.0
+offset_right = 1152.0
+offset_bottom = 129.0
+theme_override_fonts/font = ExtResource("3_6mhpt")
+theme_override_font_sizes/font_size = 55
+text = "PERFORMANCE MODE"
+alignment = 1
+script = ExtResource("10_ohexs")
+
 [connection signal="focus_entered" from="Button" to="Button" method="_on_focus_entered"]
 [connection signal="focus_exited" from="Button" to="Button" method="_on_focus_exited"]
 [connection signal="pressed" from="Button" to="Button" method="_on_pressed"]
@@ -179,3 +190,4 @@ text = "SCROLL SPEED"
 [connection signal="focus_entered" from="Button6" to="Button6" method="_on_focus_entered"]
 [connection signal="focus_exited" from="Button6" to="Button6" method="_on_focus_exited"]
 [connection signal="pressed" from="Button6" to="Button6" method="_on_pressed"]
+[connection signal="toggled" from="CheckBox" to="CheckBox" method="_on_toggled"]
